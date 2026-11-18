@@ -1,7 +1,7 @@
 # corbel
 
 [![npm](https://img.shields.io/npm/v/corbel)](https://www.npmjs.com/package/corbel)
-[![CI](https://github.com/OWNER/corbel/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/corbel/actions/workflows/ci.yml)
+[![CI](https://github.com/KuldipBoghara/corbel/actions/workflows/ci.yml/badge.svg)](https://github.com/KuldipBoghara/corbel/actions/workflows/ci.yml)
 [![license](https://img.shields.io/npm/l/corbel)](LICENSE)
 
 React components styled with **Tailwind CSS v4**, themed entirely from your own `@theme` block.

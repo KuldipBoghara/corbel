@@ -12,6 +12,15 @@
     "design-system"
   ],
   "license": "MIT",
+  "author": "Kuldip Boghara",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KuldipBoghara/corbel.git"
+  },
+  "homepage": "https://github.com/KuldipBoghara/corbel#readme",
+  "bugs": {
+    "url": "https://github.com/KuldipBoghara/corbel/issues"
+  },
   "type": "module",
   "sideEffects": [
     "**/*.css"
