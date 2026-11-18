@@ -8,3 +8,6 @@ coverage/
 # Original component sources the library was ported from (reference only).
 /common/
 /playground/
+
+# Local AI-assistant working rules (not part of the project)
+CLAUDE.md
