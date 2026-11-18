@@ -4,6 +4,8 @@ on:
   pull_request:
   push:
     branches: [main]
+  # Started by the Release workflow on the version PR (PRs opened by GITHUB_TOKEN don't trigger CI).
+  workflow_dispatch:
 
 jobs:
   check:

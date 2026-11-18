@@ -10,6 +10,7 @@ permissions:
   contents: write # push the version commit and tag
   pull-requests: write # open the "Version Packages" PR
   id-token: write # npm trusted publishing (OIDC): no NPM_TOKEN secret needed
+  actions: write # start CI on the version PR
 
 jobs:
   release:
@@ -28,6 +29,7 @@ jobs:
       # With pending changesets: opens/updates the "Version Packages" PR.
       # After that PR is merged: builds and publishes to npm, then tags the release.
       - uses: changesets/action@v1
+        id: changesets
         with:
           version: npm run version
           publish: npm run release
@@ -36,3 +38,10 @@ jobs:
           createGithubReleases: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Branch protection requires CI to pass on the version PR, but PRs opened by
+      # GITHUB_TOKEN don't trigger workflows, so start CI on that branch explicitly.
+      - if: steps.changesets.outputs.pullRequestNumber
+        run: gh workflow run ci.yml --ref changeset-release/main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
