@@ -1,0 +1,10 @@
+node_modules/
+dist/
+coverage/
+*.tgz
+*.log
+.DS_Store
+
+# Original component sources the library was ported from (reference only).
+/common/
+/playground/
