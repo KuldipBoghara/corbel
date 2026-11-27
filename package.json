@@ -1,6 +1,6 @@
 {
   "name": "corbel",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "React component library styled with Tailwind CSS v4 and themed from your own @theme tokens.",
   "keywords": [
     "react",
