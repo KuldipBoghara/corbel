@@ -96,8 +96,8 @@ See **[docs/theming.md](docs/theming.md)** for the full token list, dark mode, a
 | **Data display** | [Card](docs/components/Card.md) · [Avatar](docs/components/Avatar.md) · [Badge & StatusBadge](docs/components/Badge.md) · [StatTile](docs/components/StatTile.md) · [Accordion](docs/components/Accordion.md) · [PhotoThumb](docs/components/PhotoThumb.md) |
 | **Tables & lists** | [DataTable](docs/components/DataTable.md) · [Pagination](docs/components/Pagination.md) · [CardListView](docs/components/CardListView.md) · [InfiniteList](docs/components/InfiniteList.md) · [SortableList](docs/components/SortableList.md) |
 | **Navigation** | [PageHeader](docs/components/PageHeader.md) · [BackLink](docs/components/BackLink.md) · [Tabs](docs/components/Tabs.md) · [SideTabs](docs/components/SideTabs.md) |
-| **Overlays** | [Modal](docs/components/Modal.md) · [ConfirmDialog](docs/components/ConfirmDialog.md) |
-| **Feedback** | [Alert](docs/components/Alert.md) · [Spinner, EmptyState, ErrorState](docs/components/Feedback.md) · [PageLoader, InlineLoader, LoadingDots](docs/components/Loader.md) · [ErrorPage](docs/components/ErrorPage.md) · [ErrorBoundary](docs/components/ErrorBoundary.md) |
+| **Overlays** | [Modal](docs/components/Modal.md) · [Drawer](docs/components/Drawer.md) · [ConfirmDialog](docs/components/ConfirmDialog.md) · [Menu](docs/components/Menu.md) · [Tooltip](docs/components/Tooltip.md) |
+| **Feedback** | [Alert](docs/components/Alert.md) · [Spinner, EmptyState, ErrorState](docs/components/Feedback.md) · [PageLoader, InlineLoader, LoadingDots](docs/components/Loader.md) · [Skeleton](docs/components/Skeleton.md) · [ErrorPage](docs/components/ErrorPage.md) · [ErrorBoundary](docs/components/ErrorBoundary.md) |
 | **Rich text** | [TextEditor](docs/components/TextEditor.md) (separate entry: `corbel/editor`) |
 
 ### Rich-text editor

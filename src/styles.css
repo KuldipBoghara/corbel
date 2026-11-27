@@ -67,6 +67,27 @@
   }
 }
 
+/* Drawer */
+@utility animate-corbel-slide-in-right {
+  animation: corbel-slide-in-right 200ms ease-out;
+}
+
+@utility animate-corbel-slide-in-left {
+  animation: corbel-slide-in-left 200ms ease-out;
+}
+
+@keyframes corbel-slide-in-right {
+  from {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes corbel-slide-in-left {
+  from {
+    transform: translateX(-100%);
+  }
+}
+
 /* react-select (Dropdown): its tiny search input must not draw a second focus ring. */
 @layer base {
   .corbel-select__input:focus,

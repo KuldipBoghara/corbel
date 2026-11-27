@@ -165,7 +165,10 @@ export { SideTabs, type SideTabsProps, type SideTabsSlot } from "./components/Si
 
 // ─── Overlays ───────────────────────────────────────────────────────────────
 export { Modal, type ModalProps, type ModalSize, type ModalSlot } from "./components/Modal.js";
+export { Drawer, type DrawerProps, type DrawerPlacement, type DrawerSize } from "./components/Drawer.js";
 export { ConfirmDialog, type ConfirmDialogProps, type ConfirmDialogTone } from "./components/ConfirmDialog.js";
+export { Menu, type MenuProps, type MenuItem, type MenuAction, type MenuSlot } from "./components/Menu.js";
+export { Tooltip, type TooltipProps, type TooltipPlacement } from "./components/Tooltip.js";
 
 // ─── Feedback ───────────────────────────────────────────────────────────────
 export { Alert, type AlertProps, type AlertTone, type AlertSlot } from "./components/Alert.js";
@@ -179,6 +182,7 @@ export {
   type ErrorStateProps,
 } from "./components/Feedback.js";
 export { PageLoader, InlineLoader, LoadingDots, type LoaderProps, type LoadingDotsProps } from "./components/Loader.js";
+export { Skeleton, type SkeletonProps, type SkeletonVariant } from "./components/Skeleton.js";
 export {
   ErrorPage,
   getErrorVariant,
