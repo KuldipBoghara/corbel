@@ -161,6 +161,7 @@ export { Modal, type ModalProps, type ModalSize, type ModalSlot } from "./compon
 export { ConfirmDialog, type ConfirmDialogProps, type ConfirmDialogTone } from "./components/ConfirmDialog.js";
 
 // ─── Feedback ───────────────────────────────────────────────────────────────
+export { Alert, type AlertProps, type AlertTone, type AlertSlot } from "./components/Alert.js";
 export {
   Spinner,
   EmptyState,
