@@ -166,6 +166,7 @@ export { SideTabs, type SideTabsProps, type SideTabsSlot } from "./components/Si
 // ─── Overlays ───────────────────────────────────────────────────────────────
 export { Modal, type ModalProps, type ModalSize, type ModalSlot } from "./components/Modal.js";
 export { ConfirmDialog, type ConfirmDialogProps, type ConfirmDialogTone } from "./components/ConfirmDialog.js";
+export { Menu, type MenuProps, type MenuItem, type MenuAction, type MenuSlot } from "./components/Menu.js";
 export { Tooltip, type TooltipProps, type TooltipPlacement } from "./components/Tooltip.js";
 
 // ─── Feedback ───────────────────────────────────────────────────────────────
