@@ -179,6 +179,7 @@ export {
   type ErrorStateProps,
 } from "./components/Feedback.js";
 export { PageLoader, InlineLoader, LoadingDots, type LoaderProps, type LoadingDotsProps } from "./components/Loader.js";
+export { Skeleton, type SkeletonProps, type SkeletonVariant } from "./components/Skeleton.js";
 export {
   ErrorPage,
   getErrorVariant,
