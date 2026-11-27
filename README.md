@@ -91,13 +91,13 @@ See **[docs/theming.md](docs/theming.md)** for the full token list, dark mode, a
 
 | Category | Components |
 |---|---|
-| **Inputs** | [Button](docs/components/Button.md) · [Input](docs/components/Input.md) · [TextArea](docs/components/TextArea.md) · [Checkbox](docs/components/Checkbox.md) · [Switch](docs/components/Switch.md) · [OtpInput](docs/components/OtpInput.md) · [SearchBar](docs/components/SearchBar.md) · [SegmentedControl](docs/components/SegmentedControl.md) · [FileUploader](docs/components/FileUploader.md) · [FormField & Label](docs/components/FormField.md) |
+| **Inputs** | [Button](docs/components/Button.md) · [Input](docs/components/Input.md) · [TextArea](docs/components/TextArea.md) · [Checkbox](docs/components/Checkbox.md) · [Switch](docs/components/Switch.md) · [RadioGroup](docs/components/RadioGroup.md) · [OtpInput](docs/components/OtpInput.md) · [SearchBar](docs/components/SearchBar.md) · [SegmentedControl](docs/components/SegmentedControl.md) · [FileUploader](docs/components/FileUploader.md) · [FormField & Label](docs/components/FormField.md) |
 | **Pickers & selection** | [Dropdown](docs/components/Dropdown.md) · [DatePicker](docs/components/DatePicker.md) · [TimePicker](docs/components/TimePicker.md) · [SearchSelectList](docs/components/SearchSelectList.md) · [MultiSelectList](docs/components/MultiSelectList.md) |
 | **Data display** | [Card](docs/components/Card.md) · [Avatar](docs/components/Avatar.md) · [Badge & StatusBadge](docs/components/Badge.md) · [StatTile](docs/components/StatTile.md) · [Accordion](docs/components/Accordion.md) · [PhotoThumb](docs/components/PhotoThumb.md) |
 | **Tables & lists** | [DataTable](docs/components/DataTable.md) · [Pagination](docs/components/Pagination.md) · [CardListView](docs/components/CardListView.md) · [InfiniteList](docs/components/InfiniteList.md) · [SortableList](docs/components/SortableList.md) |
 | **Navigation** | [PageHeader](docs/components/PageHeader.md) · [BackLink](docs/components/BackLink.md) · [Tabs](docs/components/Tabs.md) · [SideTabs](docs/components/SideTabs.md) |
 | **Overlays** | [Modal](docs/components/Modal.md) · [ConfirmDialog](docs/components/ConfirmDialog.md) |
-| **Feedback** | [Spinner, EmptyState, ErrorState](docs/components/Feedback.md) · [PageLoader, InlineLoader, LoadingDots](docs/components/Loader.md) · [Skeleton](docs/components/Skeleton.md) · [ErrorPage](docs/components/ErrorPage.md) · [ErrorBoundary](docs/components/ErrorBoundary.md) |
+| **Feedback** | [Alert](docs/components/Alert.md) · [Spinner, EmptyState, ErrorState](docs/components/Feedback.md) · [PageLoader, InlineLoader, LoadingDots](docs/components/Loader.md) · [Skeleton](docs/components/Skeleton.md) · [ErrorPage](docs/components/ErrorPage.md) · [ErrorBoundary](docs/components/ErrorBoundary.md) |
 | **Rich text** | [TextEditor](docs/components/TextEditor.md) (separate entry: `corbel/editor`) |
 
 ### Rich-text editor
